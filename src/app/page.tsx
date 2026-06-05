@@ -66,9 +66,8 @@ export default function Home() {
 
           {/* photo */}
           <Reveal className="shrink-0">
-            <div className="w-72 md:w-96 aspect-[3/4] rounded-2xl overflow-hidden bg-white/5 border border-white/8 flex items-center justify-center text-white/15 text-xs tracking-widest uppercase">
-              {/* Replace with: <img src="/me.jpg" alt="Vedansh Anand" className="w-full h-full object-cover" /> */}
-              Your photo
+            <div className="w-72 md:w-96 aspect-[3/4] rounded-2xl overflow-hidden bg-white/5 border border-white/8">
+              <img src="/me.jpg" alt="Vedansh Anand" className="w-full h-full object-cover" />
             </div>
           </Reveal>
 
